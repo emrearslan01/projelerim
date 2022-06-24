@@ -1,0 +1,44 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background: url("1.gif") no-repeat;
+background-size:cover;
+min-height: 100px;
+overflow: hidden;
+color: rgb(43, 255, 0);
+font-size: 30px;
+font-family: fantasy;
+
+}
+.main{
+    position: relative;
+    width: 100px;
+    min-height: 100px;
+}
+.spaceship{
+    position:static;
+    width: 100px;
+    height: 100px;
+    background: url("ship10.png") no-repeat;
+    background-size: cover;
+  transform: translate(-50%,-50%);
+
+}
+
+
+.score{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    font-size: 1.5rem
+}

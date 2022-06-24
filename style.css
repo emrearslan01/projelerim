@@ -6,7 +6,7 @@
 
 body{
 
-background: url("1.gif") no-repeat;
+background: url("./images/1.gif") no-repeat;
 background-size:cover;
 min-height: 100px;
 overflow: hidden;
@@ -24,7 +24,7 @@ font-family: fantasy;
     position:static;
     width: 100px;
     height: 100px;
-    background: url("ship10.png") no-repeat;
+    background: url("./images/ship10.png") no-repeat;
     background-size: cover;
   transform: translate(-50%,-50%);
 
